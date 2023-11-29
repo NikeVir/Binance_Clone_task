@@ -1,0 +1,3892 @@
+<!DOCTYPE html>
+<html lang="en-IN" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta
+      http-equiv="etag"
+      content="a343110e27cc2157332c48b8c6d826d61e6c5116"
+    />
+    <meta
+      name="viewport"
+      content="user-scalable=no,width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="robots" content="noindex" />
+
+    <link rel="manifest" href="https://bin.bnbstatic.com/uc/v3/manifest.json" />
+    <style>
+      body {
+        overflow-x: hidden;
+        /* iphoneX */
+        padding-bottom: constant(safe-area-inset-bottom);
+        padding-bottom: env(safe-area-inset-bottom);
+        padding-top: constant(safe-area-inset-top);
+        padding-top: env(safe-area-inset-top);
+      }
+    </style>
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://bin.bnbstatic.com/static/images/common/favicon.ico"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="https://bin.bnbstatic.com/static/images/bnb-for/brand.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://bin.bnbstatic.com/static/images/bnb-for/brand.png"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="https://bin.bnbstatic.com/static/images/bnb-for/brand.png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="2023112319164938546_3995480420.css"
+      wswurl="https://bin.bnbstatic.com/uc/v3/static/css/08545a98.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="2023112319164938546_924831832.css"
+      wswurl="https://bin.bnbstatic.com/static/fonts/index.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="2023112319164938546_2978808232.css"
+      wswurl="https://bin.bnbstatic.com/static/fonts/font.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="2023112319164938546_1980020681.css"
+      wswurl="https://www.binance.com/en/common-widget/resource/styles"
+    />
+
+   
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="2023112319164938546_3575896281.css"
+      wswurl="https://bin.bnbstatic.com/uc/v3/static/css/2c247401.chunk.css"
+    />
+    <style data-emotion="css"></style>
+    <style data-emotion="css-global"></style>
+    <style data-emotion="css-global"></style>
+    <style data-emotion="css-global"></style>
+    <style data-emotion="css"></style>
+    <style data-emotion="css"></style>
+    <style data-emotion="css"></style>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="2023112319164938546_750854959.css"
+      wswurl="https://bin.bnbstatic.com/static/permanent/mainuc-dashboard-ui/static/chunks/../../static/css/516c6e97.chunk.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/ddeff04338.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+
+  </head>
+
+  <body
+    style="
+      overflow: auto;
+      --color-sell: #f6465d;
+      --color-textSell: #e33b54;
+      --color-sellHover: #ff707e;
+      --color-depthSellBg: #fef1f2;
+      --color-buy: #0ecb81;
+      --color-textBuy: #03a66d;
+      --color-buyHover: #32d993;
+      --color-depthBuyBg: #e6fff1;
+      --color-line: #eaecef;
+      --color-outlineHover: #ffef87;
+      --color-primary: #fcd535;
+      --color-primaryHover: #f0b90b;
+      --color-error: #e33b54;
+      --color-errorBg: #fef1f2;
+      --color-success: #0ecb81;
+      --color-successBg: #e6fff1;
+      --color-disable: #eaecef;
+      --color-iconNormal: #929aa5;
+      --color-textWhite: #ffffff;
+      --color-textGray: #eaecef;
+      --color-textBlack: #0b0e11;
+      --color-textPrimary: #1e2329;
+      --color-textSecondary: #474d57;
+      --color-textThird: #707a8a;
+      --color-textDisabled: #b7bdc6;
+      --color-textBrand: #c99400;
+      --color-textToast: #8d5f02;
+      --color-bg: #f5f5f5;
+      --color-bg1: #ffffff;
+      --color-bg2: #fafafa;
+      --color-bg3: #f5f5f5;
+      --color-bg4: #5e6673;
+      --color-bg6: #ffffff;
+      --color-bg7: #fafafa;
+      --color-popupBg: #ffffff;
+      --color-badgeBg: #fef6d8;
+      --color-selectedBg: #fafafa;
+      --color-gradientBrand: linear-gradient(180deg, #f8d12f 0%, #f0b90b 100%);
+      --color-gradientPrimary: linear-gradient(
+        295.27deg,
+        #ffffff 0%,
+        #e6e8ea 84.52%
+      );
+    "
+    class="theme-root light"
+    dir="ltr"
+  >
+
+
+    <div id="__APP_HEADER">
+      <div
+        class="theme-root light"
+        style="
+          --color-sell: #f6465d;
+          --color-textSell: #e33b54;
+          --color-sellHover: #ff707e;
+          --color-depthSellBg: #fef1f2;
+          --color-buy: #0ecb81;
+          --color-textBuy: #03a66d;
+          --color-buyHover: #32d993;
+          --color-depthBuyBg: #e6fff1;
+          --color-line: #eaecef;
+          --color-outlineHover: #ffef87;
+          --color-primary: #fcd535;
+          --color-primaryHover: #f0b90b;
+          --color-error: #e33b54;
+          --color-errorBg: #fef1f2;
+          --color-success: #0ecb81;
+          --color-successBg: #e6fff1;
+          --color-disable: #eaecef;
+          --color-iconNormal: #929aa5;
+          --color-textWhite: #ffffff;
+          --color-textGray: #eaecef;
+          --color-textBlack: #0b0e11;
+          --color-textPrimary: #1e2329;
+          --color-textSecondary: #474d57;
+          --color-textThird: #707a8a;
+          --color-textDisabled: #b7bdc6;
+          --color-textBrand: #c99400;
+          --color-textToast: #8d5f02;
+          --color-bg1: #ffffff;
+          --color-bg2: #fafafa;
+          --color-bg3: #f5f5f5;
+          --color-bg4: #5e6673;
+          --color-bg6: #ffffff;
+          --color-bg7: #fafafa;
+          --color-popupBg: #ffffff;
+          --color-badgeBg: #fef6d8;
+          --color-gradientBrand: linear-gradient(
+            180deg,
+            #f8d12f 0%,
+            #f0b90b 100%
+          );
+          --color-gradientPrimary: linear-gradient(
+            295.27deg,
+            #ffffff 0%,
+            #e6e8ea 84.52%
+          );
+        ">
+        <header
+          class="header-container hidden-in-bnc-app common-widget-css_wrap theme-root bg1 light-color"
+        >
+          <div class="header-leftside">
+            <a class="logo-link" href="https://www.binance.com/en-IN"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 5120 1024"
+                class="header-logo"
+                fill="currentColor"
+              >
+                <path
+                  d="M230.997333 512L116.053333 626.986667 0 512l116.010667-116.010667L230.997333 512zM512 230.997333l197.973333 197.973334 116.053334-115.968L512 0 197.973333 314.026667l116.053334 115.968L512 230.997333z m395.989333 164.992L793.002667 512l116.010666 116.010667L1024.981333 512l-116.992-116.010667zM512 793.002667l-197.973333-198.997334-116.053334 116.010667L512 1024l314.026667-314.026667-116.053334-115.968L512 793.002667z m0-165.973334l116.010667-116.053333L512 396.032 395.989333 512 512 626.986667z m1220.010667 11.946667v-1.962667c0-75.008-40.021333-113.024-105.002667-138.026666 39.978667-21.973333 73.984-58.026667 73.984-121.002667v-1.962667c0-88.021333-70.997333-145.024-185.002667-145.024h-260.992v561.024h267.008c126.976 0.981333 210.005333-51.029333 210.005334-153.002666z m-154.026667-239.957333c0 41.984-34.005333 58.965333-89.002667 58.965333h-113.962666V338.986667h121.984c52.010667 0 80.981333 20.992 80.981333 58.026666v2.005334z m31.018667 224c0 41.984-32.981333 61.013333-87.04 61.013333h-146.944v-123.050667h142.976c63.018667 0 91.008 23.04 91.008 61.013334v1.024z m381.994666 169.984V230.997333h-123.989333v561.024h123.989333v0.981334z m664.021334 0V230.997333h-122.026667v346.026667l-262.997333-346.026667h-114.005334v561.024h122.026667v-356.010666l272 356.992h104.96z m683.946666 0L3098.026667 228.010667h-113.962667l-241.024 564.992h127.018667l50.986666-125.994667h237.013334l50.986666 125.994667h130.005334z m-224.981333-235.008h-148.992l75.008-181.973334 73.984 181.973334z m814.037333 235.008V230.997333h-122.026666v346.026667l-262.997334-346.026667h-114.005333v561.024h122.026667v-356.010666l272 356.992h104.96z m636.970667-91.008l-78.976-78.976c-44.032 39.978667-83.029333 65.962667-148.010667 65.962666-96 0-162.986667-80-162.986666-176v-2.986666c0-96 67.968-174.976 162.986666-174.976 55.978667 0 100.010667 23.978667 144 62.976l78.976-91.008c-51.968-50.986667-114.986667-86.997333-220.970666-86.997334-171.989333 0-292.992 130.986667-292.992 290.005334V512c0 160.981333 122.965333 288.981333 288 288.981333 107.989333 1.024 171.989333-36.992 229.973333-98.986666z m527.018667 91.008v-109.994667h-305.024v-118.016h265.002666v-109.994667h-265.002666V340.992h301.013333V230.997333h-422.997333v561.024h427.008v0.981334z"
+                  p-id="2935"
+                ></path></svg
+            ></a>
+
+            <div class="header-menu-item rwd-1024-hide-flex">
+              <a
+                class="header-menu-item_view typography-Subtitle4"
+                id="ba-titile2-2"
+                href="https://www.binance.com/en-IN/crypto/buy"
+                >Buy Crypto</a
+              >
+            </div>
+
+            <div class="header-menu-item rwd-1024-hide-flex">
+              <a
+                class="header-menu-item_view typography-Subtitle4"
+                id="ba-tableMarkets"
+                href="https://www.binance.com/en-IN/markets/overview"
+                >Markets</a
+              >
+            </div>
+
+            <div
+              class="header-menu-item header-dropdown-menu rwd-1024-hide-flex header-menu-align_frist"
+            >
+              <span
+                id="ba-trade"
+                class="header-menu-item_view typography-Subtitle4"
+                >Trade<svg
+                  class="bn-svg header-menu-item_dropdown-icon"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M12.11 12.178L16 8.287l1.768 1.768-5.657 5.657-1.768-1.768-3.889-3.889 1.768-1.768 3.889 3.89z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </span>
+
+              <div class="header-menu-subgrid header-menu-subgrid-2">
+                <ul class="header-menu-subgrid-group">
+                  <div
+                    class="typography-Subtitle4 header-menu-subgrid-group-li color-t_disabled"
+                  >
+                    Basic
+                  </div>
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://www.binance.com/en-IN/trade"
+                      id="ba-spot-only"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#spot-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">Spot</div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          Buy and sell on the Spot market with advanced tools
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://www.binance.com/en-IN/trade?type=cross"
+                      id="ba-margin"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#margin-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">Margin</div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          Increase your profits with leverage
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://p2p.binance.com/en-IN"
+                      id="ba-titile2-1"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#p2p-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">P2P</div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          Buy &amp; sell cryptocurrencies using bank transfer
+                          and 800+ options
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://www.binance.com/en-IN/convert"
+                      id="ba-convert-block"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#convert-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">
+                            Convert &amp; Block Trade
+                          </div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          The easiest way to trade at all sizes
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                </ul>
+                <ul class="header-menu-subgrid-group">
+                  <div
+                    class="typography-Subtitle4 header-menu-subgrid-group-li color-t_disabled"
+                  >
+                    Advanced
+                  </div>
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://www.binance.com/en-IN/strategy"
+                      id="ba-StrategyTrading"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#trade-trading-bot-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">Trading Bots</div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          Trade smarter with our various automated strategies -
+                          easy, fast and reliable
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://www.binance.com/en-IN/copy-trading"
+                      id="ba-copy-trading"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#copy-trading-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">Copy Trading</div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          Follow the most popular traders
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://www.binance.com/en-IN/binance-api"
+                      id="header-tier2-api"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#api-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">APIs</div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          Unlimited opportunities with one key
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              class="header-menu-item header-dropdown-menu rwd-1024-hide-flex center"
+            >
+              <a
+                class="header-menu-item_view typography-Subtitle4"
+                id="ba-binanceFutrue"
+                href="https://www.binance.com/en-IN/futures/home"
+                >Futures<svg
+                  class="bn-svg header-menu-item_dropdown-icon"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M12.11 12.178L16 8.287l1.768 1.768-5.657 5.657-1.768-1.768-3.889-3.889 1.768-1.768 3.889 3.89z"
+                    fill="currentColor"
+                  ></path></svg
+              ></a>
+
+              <div class="header-menu-subgrid header-menu-subgrid-1">
+                <ul class="header-menu-subgrid-group">
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://www.binance.com/en-IN/futures"
+                      id="ba-perpetualFutures"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#futures-usdt-m-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">USDⓈ-M Futures</div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          Contracts settled in USDT
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://www.binance.com/en-IN/delivery"
+                      id="ba-quarterlyFutures"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#futures-coin-m-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">COIN-M Futures</div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          Contracts settled in cryptocurrency
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://www.binance.com/en-IN/eoptions"
+                      id="ba-voptions"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#futures-options-european-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">Options</div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          USDT Options with limited downside and affordable
+                          entry
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="header-menu-item rwd-1024-hide-flex">
+              <a
+                class="header-menu-item_view typography-Subtitle4"
+                id="ba-Earntitle"
+                href="https://www.binance.com/en-IN/earn"
+                >Earn</a
+              >
+            </div>
+
+            <div
+              class="header-menu-item header-dropdown-menu rwd-1024-hide-flex center"
+            >
+              <a
+                class="header-menu-item_view typography-Subtitle4"
+                id="ba-Square"
+                href="https://www.binance.com/en-IN/feed"
+                >Square<svg
+                  class="bn-svg header-menu-item_dropdown-icon"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M12.11 12.178L16 8.287l1.768 1.768-5.657 5.657-1.768-1.768-3.889-3.889 1.768-1.768 3.889 3.89z"
+                    fill="currentColor"
+                  ></path></svg
+              ></a>
+
+              <div class="header-menu-subgrid header-menu-subgrid-1">
+                <ul class="header-menu-subgrid-group">
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://www.binance.com/en-IN/feed"
+                      id="ba-Square"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#feed-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">Square</div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          Stay informed with everything crypto
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://academy.binance.com/en/learn-and-earn"
+                      id="ba-academy-le"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#educate-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">
+                            Academy (Learn &amp; Earn)
+                          </div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          Earn crypto by learning about blockchain
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://www.binance.com/en-IN/blog"
+                      id="ba-blog"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#blog-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">Blog</div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          Expand your knowledge and get the latest insights
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://www.binance.com/en-IN/research"
+                      id="ba-Research"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#research-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">Research</div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          Institutional-grade analysis, in-depth insights, and
+                          more
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              class="header-menu-item header-dropdown-menu rwd-1024-hide-flex center"
+            >
+              <span
+                id="ba-moreManagement"
+                class="header-menu-item_view typography-Subtitle4"
+                >More<svg
+                  class="bn-svg header-menu-item_dropdown-icon"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M12.11 12.178L16 8.287l1.768 1.768-5.657 5.657-1.768-1.768-3.889-3.889 1.768-1.768 3.889 3.89z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </span>
+
+              <div class="header-menu-subgrid header-menu-subgrid-2">
+                <ul class="header-menu-subgrid-group">
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://www.binance.com/en-IN/vip-institutional-services"
+                      id="ba-vip-institutional"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#institutional-home-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">
+                            VIP &amp; Institutional
+                          </div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          Your trusted digital asset platform for VIPs and
+                          institutions
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://launchpad.binance.com/en-IN"
+                      id="ba-Launchpad"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#launchpad-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">Launchpad</div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          Discover and gain access to new token launches
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://pool.binance.com/en"
+                      id="ba-pool"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#pool-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">Mining Pool</div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          Mine more rewards by connecting to the pool
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://www.binance.com/en-IN/my/wallet/account/payment"
+                      id="ba-Binance Pay"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#pay-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">Pay</div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          Send, receive and spend crypto
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://www.binance.com/en-IN/loan"
+                      id="ba-CryptoLoans"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#earn-lending-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">Loans</div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          Get an instant loan secured by crypto assets
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                </ul>
+                <ul class="header-menu-subgrid-group">
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://www.binance.com/en-IN/nft/home"
+                      id="ba-NFT"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#nft-marketplace-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">NFT</div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          Explore NFTs from creators worldwide
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://www.binance.com/en-IN/fan-token"
+                      id="ba-Fantoken"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#fan-token"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">Fan Token</div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          Discover an all-new fandom and unlock unlimited fan
+                          experiences
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://www.binance.com/en-IN/web3wallet"
+                      id="ba-web3-wallet"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#defi-wallet-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">Web3 Wallet</div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          Meet the next-generation Web3 wallet
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://www.bnbchain.org"
+                      id="ba-bnbchain"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#Dex-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">BNB Chain</div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          The most popular blockchain to build your own dApp
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="header-menu-subgrid-group-li">
+                    <a
+                      class="header-nav-subitem"
+                      href="https://www.binance.charity"
+                      id="ba-Charity"
+                    >
+                      <div class="header-nav-subicon_warp">
+                        <svg
+                          class="header-nav-subicon_icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#charity-g"></use>
+                        </svg>
+                      </div>
+
+                      <div class="header-nav-subitemtext">
+                        <div class="header-nav-subtitle">
+                          <div class="typography-Subtitle4">Charity</div>
+                          <svg
+                            class="bn-svg header-nav-subarrow"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M21 11.999l-7.071-7.071-1.768 1.768 4.055 4.054H2.999v2.5h13.216l-4.054 4.053 1.768 1.768L21 12v-.001z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+
+                        <p class="header-nav-subdesc typography-Caption2">
+                          Blockchain empowers charity to be more transparent,
+                          efficient, and traceable
+                        </p>
+                      </div></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="header-rightside">
+            <div class="bn-tooltips-wrap dropdownAndDraw-dropdown">
+              <div class="bn-tooltips-ele">
+                <div class="header-menu-rightItem rwd-768-hide">
+                  <div id="header_menu_search" class="hidden-in-bnc-app">
+                    <svg
+                      class="search-icon bn-svg hover-color"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                    >
+                      <use xlink:href="#search-f"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="bn-bubble bn-bubble__unset shadow bn-tooltips"
+                style="transform: translate(0px, 0px); top: 100%; right: 0px"
+              >
+                <div class="bn-bubble-content" style="margin-top: 4px">
+                  <div class="header-search-content">
+                    <div class="explore-component explore-content">
+                      <div class="search-group">
+                        <div
+                          class="bn-textField bn-textField__line data-size-middle"
+                        >
+                          <div class="bn-textField-prefix">
+                            <svg
+                              fill="t.disabled"
+                              size="24"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                              class="bn-svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M11 6a5 5 0 110 10 5 5 0 010-10zm0-3a8 8 0 017.021 11.838l3.07 3.07-1.59 1.591-1.591 1.591-3.07-3.07A8 8 0 1111 3z"
+                                fill="currentColor"
+                              ></path>
+                            </svg>
+                          </div>
+                          <input
+                            placeholder="Coin, Function, Announcement"
+                            class="bn-textField-input"
+                            spellcheck="false"
+                            autocomplete=""
+                            value=""
+                          />
+                        </div>
+
+                        <p
+                          class="typography-Subtitle4 hover-pointer"
+                          id="header-search-cancel"
+                        >
+                          Cancel
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="header-menu-item">
+              <div>
+                <button
+                  class="bn-button bn-button__primary data-size-small deposit-btn"
+                  fr=""
+                >
+                 <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg>Deposit
+                </button>
+              </div>
+            </div>
+
+            <div class="bn-tooltips-wrap dropdownAndDraw-dropdown">
+              <div class="bn-tooltips-ele">
+                <div class="header-menu-item header-dropdown-menu">
+                  <a href="./dashboard.html">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="header-account-icon" height="16" width="18" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm80 256h64c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16c0-44.2 35.8-80 80-80zm-32-96a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zm256-32H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>
+                  </a>
+                </div>
+              </div>
+
+              <div
+                class="bn-bubble bn-bubble__unset shadow bn-tooltips"
+                style="transform: translate(-50%, 0px); top: 100%; left: 50%"
+              >
+              
+              </div>
+            </div>
+
+            <div
+              class="header-menu-item header-dropdown-menu center rwd-1200-hide-flex"
+            >
+            
+              <a class="inline-flex" id="ba-wallet"
+                ><svg xmlns="http://www.w3.org/2000/svg"  height="20" width="20" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V192c0-35.3-28.7-64-64-64H80c-8.8 0-16-7.2-16-16s7.2-16 16-16H448c17.7 0 32-14.3 32-32s-14.3-32-32-32H64zM416 272a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg></a>
+              <ul class="header-menu-sublist">
+                <a
+                href="./overview.html"
+                  id="ba-wallet-overview"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#list-grid-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text "  >Overview</div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                ><a
+                  href="./spot.html"
+                  id="ba-exchangeWallet"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#spot-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">
+                            Fiat and Spot
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                ><a
+                  href="./margin.html"
+                  id="ba-marginWallet"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#margin-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">Margin</div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                ><a
+                  href="https://www.binance.com/en-IN/my/wallet/account/futures"
+                  id="ba-futureWallet"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#futures-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">Futures</div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                ><a
+                  href="https://www.binance.com/en-IN/my/wallet/account/eoptions"
+                  id="ba-optionsWallet"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#futures-options-european-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">Options</div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                ><a
+                  href="https://www.binance.com/en-IN/my/wallet/account/trading-bots"
+                  id="ba-strategywallet"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#trade-trading-bot-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">
+                            Trading Bots
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                ><a
+                  href="https://www.binance.com/en-IN/my/saving/asset"
+                  id="ba-earnAssets"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#piggy-bank-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">Earn</div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                ><a
+                  href="https://www.binance.com/en-IN/my/wallet/funding"
+                  id="ba-FundingWallet"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#coin-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">
+                            Funding Wallet
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                ><a
+                  href="https://www.binance.com/en-IN/my/wallet/history/deposit-crypto"
+                  id="ba-transactionhistory"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#transaction-history-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">
+                            Transaction History
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                ><a
+                  href="https://www.binance.com/en-IN/my/wallet/account/statement"
+                  id="ba-AccountStatement"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#ac-statement"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">
+                            Account Statement
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                ><a
+                  href="https://www.binance.com/en-IN/my/wallet/verification"
+                  id="header-tier2-wallet-verification"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#proof-reserve-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">
+                            Verification
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                >
+              </ul>
+            </div>
+
+            <div
+              class="header-menu-item header-dropdown-menu center rwd-1200-hide-flex"
+            >
+              <a class="inline-flex" id="ba-others"
+                ><svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M48 0C21.5 0 0 21.5 0 48V464c0 26.5 21.5 48 48 48h96V432c0-26.5 21.5-48 48-48s48 21.5 48 48v80h96c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H48zM64 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V240zm112-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V240c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V240zM80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V112zM272 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16z"/></svg></a>
+              <ul class="header-menu-sublist">
+                <a
+                  href="https://www.binance.com/en-IN/my/orders/exchange/openorder"
+                  id="ba-exchangeOrders"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#spot-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">Spot Order</div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                ><a
+                  href="https://www.binance.com/en-IN/my/orders/margin/openorder"
+                  id="ba-marginOrders"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#margin-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">
+                            Margin Order
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                ><a
+                  href="https://www.binance.com/en-IN/usercenter/future-history/open-order"
+                  id="ba-futureOrders"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#futures-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">
+                            Futures Order
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                ><a
+                  href="https://www.binance.com/en-IN/my/orders/eoptions/openorders"
+                  id="ba-optionsOrder"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#futures-options-european-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">
+                            Options Order
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                ><a
+                  href="https://www.binance.com/en-IN/my/orders/trading-bots/openorders"
+                  id="ba-strategy-order"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#trade-trading-bot-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">
+                            Trading Bots Order
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                ><a
+                  href="https://c2c.binance.com/en-IN/fiatOrder"
+                  id="ba-corder"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#p2p-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">P2P Order</div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                ><a
+                  href="https://www.binance.com/en-IN/my/saving/history/subscription"
+                  id="ba-earnHistory"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#piggy-bank-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">
+                            Earn History
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                ><a
+                  href="https://www.binance.com/en-IN/my/wallet/exchange/buysell-history"
+                  id="ba-buySellHistory"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#trade-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">
+                            Buy Crypto History
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                ><a
+                  href="https://www.binance.com/en-IN/my/loan/order"
+                  id="ba-loan-history"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#earn-lending-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">
+                            Loan History
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                ><a
+                  href="https://www.binance.com/en-IN/my/orders/convert/history"
+                  id="ba-nav-otc"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#convert-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">
+                            Convert History
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                ><a
+                  href="https://launchpad.binance.com/en-IN/history/stackSchema"
+                  id="ba-launchpadhistory"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#launchpad-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">
+                            Launchpad History
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                ><a
+                  href="https://www.binance.com/en-IN/my/wallet/account/payment/history"
+                  id="ba-payment history"
+                >
+                  <li class="header-rightnav-subview">
+                    <div class="header-rightnav-subitem height-48">
+                      <div class="align-center height-100">
+                        <svg
+                          class="header-rightnav-subicon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#pay-f"></use>
+                        </svg>
+
+                        <div class="header-nav-subtitle">
+                          <div class="header-nav-subtitle_text">
+                            Payment History
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li></a
+                >
+              </ul>
+            </div>
+
+            <div class="bn-tooltips-wrap dropdownAndDraw-dropdown">
+              <div class="bn-tooltips-ele">
+                <div class="header-menu-rightItem rwd-1200-hide-flex">
+                  <div id="header_menu_in-mail" class="inline-flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"/></svg>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="bn-bubble bn-bubble__unset shadow bn-tooltips"
+                style="transform: translate(0px, 0px); top: 100%; right: 0px"
+              >
+                <div class="bn-bubble-content" style="margin-top: 4px">
+                  <div class="header-inmall">
+                    <div class="align-center header-inmall-pendding">
+                      <div class="align-center">
+                        <p class="typography-Headline6">0</p>
+
+                        <p class="ml-8 color-t_third">pending notifications</p>
+
+                        <p
+                          class="ml-8 color-t_third typography-Caption2 header-inmall-clear"
+                        >
+                          Clear All
+                        </p>
+                      </div>
+                      <a
+                        class="align-center header-inmall-viewall typography-Caption2"
+                        href="https://www.binance.com/en-IN/inmail"
+                      >
+                        <p class="mr-8">View All</p>
+                        <svg
+                          class="header-inmall-arrow"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                        >
+                          <use xlink:href="#arrow-right-f"></use></svg
+                      ></a>
+                    </div>
+
+                    <div
+                      class="header-inmall-nodata text-center color-t_third align-center flex-column"
+                    >
+                      <svg
+                        class="header-inmall-nodataicon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                      >
+                        <use xlink:href="#notification-f"></use>
+                      </svg>
+
+                      <p class="typography-Caption2 mt-8">
+                        No new notifications
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bn-tooltips-wrap dropdownAndDraw-dropdown">
+              <div class="bn-tooltips-ele">
+                <div
+                  class="header-menu-rightItem hover-color rwd-1200-hide-flex"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM216 232V334.1l31-31c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-72 72c-9.4 9.4-24.6 9.4-33.9 0l-72-72c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l31 31V232c0-13.3 10.7-24 24-24s24 10.7 24 24z"/></svg>
+                </div>
+              </div>
+
+              <div
+                class="bn-bubble bn-bubble__unset shadow bn-tooltips"
+                style="transform: translate(0px, 0px); top: 100%; right: 0px"
+              >
+                <div class="bn-bubble-content" style="margin-top: 4px">
+                  <div class="QRCode-wrap">
+                    <div class="QRCode-img">
+                      <img
+                        class="QRCode-logo"
+                        src="img.gif"
+                        alt=""
+                        wswurl="https://bin.bnbstatic.com/static/images/common/logo.png"
+                      /><svg height="136" width="136" viewBox="0 0 41 41">
+                        <path
+                          fill="#FFFFFF"
+                          d="M0,0 h41v41H0z"
+                          shape-rendering="crispEdges"
+                        ></path>
+
+                        <path
+                          fill="#000000"
+                          d="M0 0h7v1H0zM13 0h2v1H13zM16 0h1v1H16zM18 0h3v1H18zM23 0h1v1H23zM28 0h2v1H28zM32 0h1v1H32zM34,0 h7v1H34zM0 1h1v1H0zM6 1h1v1H6zM9 1h2v1H9zM13 1h2v1H13zM16 1h1v1H16zM18 1h1v1H18zM20 1h1v1H20zM22 1h1v1H22zM27 1h1v1H27zM29 1h1v1H29zM32 1h1v1H32zM34 1h1v1H34zM40,1 h1v1H40zM0 2h1v1H0zM2 2h3v1H2zM6 2h1v1H6zM8 2h1v1H8zM11 2h1v1H11zM14 2h1v1H14zM20 2h1v1H20zM26 2h2v1H26zM30 2h1v1H30zM32 2h1v1H32zM34 2h1v1H34zM36 2h3v1H36zM40,2 h1v1H40zM0 3h1v1H0zM2 3h3v1H2zM6 3h1v1H6zM8 3h4v1H8zM13 3h1v1H13zM16 3h1v1H16zM18 3h1v1H18zM20 3h4v1H20zM27 3h3v1H27zM31 3h1v1H31zM34 3h1v1H34zM36 3h3v1H36zM40,3 h1v1H40zM0 4h1v1H0zM2 4h3v1H2zM6 4h1v1H6zM8 4h8v1H8zM17 4h1v1H17zM19 4h3v1H19zM23 4h1v1H23zM25 4h2v1H25zM28 4h1v1H28zM30 4h3v1H30zM34 4h1v1H34zM36 4h3v1H36zM40,4 h1v1H40zM0 5h1v1H0zM6 5h1v1H6zM8 5h6v1H8zM17 5h1v1H17zM20 5h3v1H20zM27 5h3v1H27zM34 5h1v1H34zM40,5 h1v1H40zM0 6h7v1H0zM8 6h1v1H8zM10 6h1v1H10zM12 6h1v1H12zM14 6h1v1H14zM16 6h1v1H16zM18 6h1v1H18zM20 6h1v1H20zM22 6h1v1H22zM24 6h1v1H24zM26 6h1v1H26zM28 6h1v1H28zM30 6h1v1H30zM32 6h1v1H32zM34,6 h7v1H34zM8 7h1v1H8zM10 7h1v1H10zM13 7h2v1H13zM20 7h4v1H20zM26 7h3v1H26zM32 7h1v1H32zM0 8h1v1H0zM2 8h5v1H2zM9 8h3v1H9zM13 8h5v1H13zM19 8h1v1H19zM23 8h5v1H23zM29 8h1v1H29zM31 8h2v1H31zM34 8h5v1H34zM0 9h2v1H0zM4 9h2v1H4zM7 9h1v1H7zM9 9h2v1H9zM12 9h1v1H12zM14 9h2v1H14zM18 9h2v1H18zM21 9h1v1H21zM23 9h1v1H23zM28 9h2v1H28zM31 9h4v1H31zM36 9h1v1H36zM38,9 h3v1H38zM1 10h1v1H1zM3 10h1v1H3zM6 10h1v1H6zM8 10h1v1H8zM11 10h1v1H11zM13 10h2v1H13zM16 10h3v1H16zM20 10h3v1H20zM26 10h2v1H26zM29 10h1v1H29zM32 10h2v1H32zM36 10h1v1H36zM1 11h2v1H1zM4 11h2v1H4zM10 11h4v1H10zM15 11h2v1H15zM18 11h1v1H18zM20 11h5v1H20zM31 11h2v1H31zM35 11h1v1H35zM37 11h1v1H37zM39,11 h2v1H39zM1 12h3v1H1zM5 12h2v1H5zM10 12h1v1H10zM12 12h2v1H12zM17 12h1v1H17zM19 12h1v1H19zM22 12h1v1H22zM25 12h3v1H25zM29 12h1v1H29zM31 12h1v1H31zM37 12h2v1H37zM40,12 h1v1H40zM0 13h3v1H0zM4 13h1v1H4zM8 13h1v1H8zM10 13h1v1H10zM12 13h7v1H12zM20 13h3v1H20zM24 13h1v1H24zM27 13h5v1H27zM33 13h4v1H33zM38 13h1v1H38zM40,13 h1v1H40zM0 14h1v1H0zM6 14h4v1H6zM13 14h1v1H13zM17 14h1v1H17zM19 14h1v1H19zM21 14h1v1H21zM29 14h1v1H29zM32 14h2v1H32zM36 14h2v1H36zM0 15h1v1H0zM2 15h1v1H2zM7 15h1v1H7zM11 15h1v1H11zM15 15h1v1H15zM18 15h5v1H18zM24 15h1v1H24zM26 15h1v1H26zM28 15h1v1H28zM32 15h1v1H32zM34 15h4v1H34zM0 16h3v1H0zM6 16h2v1H6zM9 16h1v1H9zM12 16h2v1H12zM17 16h1v1H17zM19 16h2v1H19zM22 16h1v1H22zM25 16h2v1H25zM28 16h2v1H28zM33 16h1v1H33zM35 16h1v1H35zM2 17h4v1H2zM7 17h3v1H7zM13 17h2v1H13zM16 17h2v1H16zM19 17h3v1H19zM23 17h3v1H23zM28 17h1v1H28zM30 17h3v1H30zM34 17h3v1H34zM39 17h1v1H39zM5 18h2v1H5zM9 18h3v1H9zM13 18h2v1H13zM16 18h2v1H16zM20 18h2v1H20zM24 18h7v1H24zM34 18h1v1H34zM36 18h1v1H36zM38 18h1v1H38zM0 19h1v1H0zM2 19h1v1H2zM8 19h1v1H8zM13 19h2v1H13zM16 19h8v1H16zM25 19h1v1H25zM27 19h2v1H27zM32 19h1v1H32zM34 19h1v1H34zM36 19h2v1H36zM1 20h1v1H1zM4 20h1v1H4zM6 20h1v1H6zM10 20h1v1H10zM16 20h1v1H16zM19 20h3v1H19zM23 20h2v1H23zM26 20h1v1H26zM28 20h2v1H28zM37 20h2v1H37zM40,20 h1v1H40zM0 21h5v1H0zM7 21h1v1H7zM9 21h4v1H9zM14 21h2v1H14zM18 21h2v1H18zM22 21h2v1H22zM25 21h1v1H25zM28 21h1v1H28zM30 21h3v1H30zM34 21h3v1H34zM39,21 h2v1H39zM1 22h3v1H1zM6 22h1v1H6zM8 22h4v1H8zM13 22h3v1H13zM20 22h1v1H20zM22 22h1v1H22zM25 22h5v1H25zM38 22h1v1H38zM2 23h4v1H2zM7 23h2v1H7zM11 23h2v1H11zM14 23h1v1H14zM16 23h1v1H16zM20 23h2v1H20zM23 23h2v1H23zM28 23h1v1H28zM31 23h5v1H31zM37 23h1v1H37zM39 23h1v1H39zM0 24h1v1H0zM5 24h3v1H5zM9 24h1v1H9zM11 24h7v1H11zM22 24h1v1H22zM24 24h3v1H24zM29 24h1v1H29zM31 24h1v1H31zM38 24h1v1H38zM40,24 h1v1H40zM0 25h1v1H0zM2 25h2v1H2zM5 25h1v1H5zM10 25h2v1H10zM14 25h1v1H14zM16 25h1v1H16zM18 25h4v1H18zM23 25h1v1H23zM25 25h1v1H25zM28 25h1v1H28zM31 25h1v1H31zM34 25h4v1H34zM39,25 h2v1H39zM0 26h1v1H0zM6 26h1v1H6zM10 26h1v1H10zM13 26h1v1H13zM20 26h1v1H20zM24 26h1v1H24zM26 26h2v1H26zM30 26h1v1H30zM32 26h1v1H32zM34 26h3v1H34zM39 26h1v1H39zM1 27h1v1H1zM4 27h1v1H4zM9 27h2v1H9zM14 27h1v1H14zM16 27h1v1H16zM19 27h3v1H19zM23 27h1v1H23zM26 27h1v1H26zM28 27h1v1H28zM31 27h4v1H31zM36 27h2v1H36zM40,27 h1v1H40zM1 28h4v1H1zM6 28h1v1H6zM8 28h2v1H8zM14 28h1v1H14zM17 28h1v1H17zM19 28h2v1H19zM22 28h3v1H22zM26 28h1v1H26zM29 28h1v1H29zM31 28h1v1H31zM37 28h3v1H37zM0 29h1v1H0zM4 29h1v1H4zM8 29h1v1H8zM12 29h1v1H12zM14 29h2v1H14zM18 29h1v1H18zM21 29h1v1H21zM25 29h3v1H25zM30,29 h11v1H30zM0 30h1v1H0zM5 30h2v1H5zM9 30h2v1H9zM12 30h1v1H12zM14 30h3v1H14zM20 30h1v1H20zM23 30h2v1H23zM27 30h4v1H27zM32 30h4v1H32zM38 30h1v1H38zM0 31h1v1H0zM8 31h2v1H8zM15 31h1v1H15zM18 31h1v1H18zM21 31h3v1H21zM26 31h3v1H26zM31 31h1v1H31zM33 31h3v1H33zM39,31 h2v1H39zM0 32h1v1H0zM4 32h3v1H4zM9 32h2v1H9zM12 32h2v1H12zM16 32h2v1H16zM22 32h5v1H22zM29 32h1v1H29zM32 32h5v1H32zM38 32h1v1H38zM8 33h1v1H8zM10 33h2v1H10zM16 33h1v1H16zM19 33h2v1H19zM23 33h1v1H23zM28 33h5v1H28zM36 33h1v1H36zM39,33 h2v1H39zM0 34h7v1H0zM10 34h1v1H10zM12 34h4v1H12zM18 34h1v1H18zM20 34h1v1H20zM22 34h1v1H22zM27 34h3v1H27zM31 34h2v1H31zM34 34h1v1H34zM36 34h1v1H36zM38 34h2v1H38zM0 35h1v1H0zM6 35h1v1H6zM8 35h4v1H8zM16 35h1v1H16zM19 35h1v1H19zM23 35h1v1H23zM26 35h2v1H26zM31 35h2v1H31zM36 35h2v1H36zM39,35 h2v1H39zM0 36h1v1H0zM2 36h3v1H2zM6 36h1v1H6zM8 36h1v1H8zM11 36h2v1H11zM14 36h1v1H14zM16 36h1v1H16zM18 36h1v1H18zM21 36h2v1H21zM27 36h3v1H27zM32 36h5v1H32zM38 36h1v1H38zM40,36 h1v1H40zM0 37h1v1H0zM2 37h3v1H2zM6 37h1v1H6zM8 37h2v1H8zM11 37h1v1H11zM15 37h2v1H15zM19 37h3v1H19zM23 37h1v1H23zM26 37h1v1H26zM30 37h2v1H30zM33 37h1v1H33zM35 37h1v1H35zM38 37h1v1H38zM0 38h1v1H0zM2 38h3v1H2zM6 38h1v1H6zM8 38h3v1H8zM13 38h3v1H13zM20 38h1v1H20zM27 38h1v1H27zM29 38h1v1H29zM31 38h1v1H31zM33 38h5v1H33zM0 39h1v1H0zM6 39h1v1H6zM10 39h1v1H10zM15 39h1v1H15zM17 39h1v1H17zM19 39h1v1H19zM21 39h3v1H21zM26 39h3v1H26zM32 39h1v1H32zM36 39h2v1H36zM39 39h1v1H39zM0 40h7v1H0zM8 40h6v1H8zM15 40h2v1H15zM18 40h1v1H18zM22 40h6v1H22zM29 40h3v1H29zM34 40h3v1H34zM38 40h1v1H38z"
+                          shape-rendering="crispEdges"
+                        ></path>
+                      </svg>
+                    </div>
+
+                    <p
+                      class="typography-Caption2 text-center QRCode-text1 mt-4"
+                    >
+                      Scan to Download App IOS &amp; Android
+                    </p>
+                    <a
+                      id="ba-downloadoptions"
+                      href="https://www.binance.com/en-IN/download?utm_source=referral&amp;utm_campaign=accounts.binance.com"
+                      ><button
+                        fr=""
+                        as="a"
+                        href="https://www.binance.com/en-IN/download?utm_source=referral&amp;utm_campaign=accounts.binance.com"
+                        class="bn-button bn-button__primary data-size-small mt-16"
+                      >
+                        <p class="typography-Caption1">More Download Options</p>
+                      </button></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bn-tooltips-wrap dropdownAndDraw-dropdown">
+              <div class="bn-tooltips-ele">
+                <div class="header-menu-rightItem rwd-1200-hide-flex">
+                  <svg
+                    class="bn-svg language-icon hover-color"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M15.23 20.403a9.011 9.011 0 005.684-7.153h-3.942c-.147 2.86-.793 5.388-1.741 7.153zm-.757-7.153c-.178 4.102-1.217 7.25-2.473 7.25-1.256 0-2.295-3.148-2.473-7.25h4.946zm0-2.5H9.527C9.705 6.648 10.744 3.5 12 3.5c1.256 0 2.295 3.148 2.473 7.25zm2.499 0h3.942a9.01 9.01 0 00-5.683-7.153c.948 1.765 1.594 4.293 1.741 7.153zm-9.936 0c.147-2.862.793-5.392 1.743-7.156a9.01 9.01 0 00-5.693 7.156h3.95zm0 2.5h-3.95a9.01 9.01 0 005.693 7.157c-.95-1.765-1.596-4.295-1.743-7.157z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+
+              <div
+                class="bn-bubble bn-bubble__unset shadow bn-tooltips"
+                style="transform: translate(0px, 0px); top: 100%; right: 0px"
+              >
+                <div class="bn-bubble-content" style="margin-top: 4px">
+                  <div class="header-lngCur-content">
+                    <div class="header-lngCur-item">
+                      <div
+                        class="footer-select-options-group-flat language-select"
+                      >
+                        <div class="typography-Body3 color-t_third">
+                          Language
+                        </div>
+
+                        <div
+                          class="bn-textField bn-textField__line data-size-small"
+                        >
+                          <input
+                            placeholder="Search"
+                            class="bn-textField-input"
+                            spellcheck="false"
+                            autocomplete=""
+                            value=""
+                          />
+                        </div>
+
+                        
+                      </div>
+                    </div>
+
+                    <div class="header-lngCur-item">
+                      <div
+                        class="footer-select-options-group-flat currency-select"
+                      >
+                        <div class="typography-Body3 color-t_third">
+                          Currency
+                        </div>
+
+                        <div
+                          class="bn-textField bn-textField__line data-size-small"
+                        >
+                          <input
+                            placeholder="Search"
+                            class="bn-textField-input"
+                            spellcheck="false"
+                            autocomplete=""
+                            value=""
+                          />
+                        </div>
+
+                      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="header-menu-rightItem rwd-1200-visi-flex header-menu-right-pickup"
+            >
+              <svg
+                class="bn-svg hover-color"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M4 4h16v3H4V4zm0 6.5h16v3H4v-3zM20 17H4v3h16v-3z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </header>
+
+        <div class="header-global-js-top-alert">
+          <div
+            class="header-global-js-top-alert__inner"
+            id="header_global_js_wxgy34nj"
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="__APP" style="height: auto; width: auto">
+      <div style="position: relative"></div>
+
+      <div
+        class="theme-root light"
+        style="
+          --color-sell: #f6465d;
+          --color-textSell: #e33b54;
+          --color-sellHover: #ff707e;
+          --color-depthSellBg: #fef1f2;
+          --color-buy: #0ecb81;
+          --color-textBuy: #03a66d;
+          --color-buyHover: #32d993;
+          --color-depthBuyBg: #e6fff1;
+          --color-line: #eaecef;
+          --color-outlineHover: #ffef87;
+          --color-primary: #fcd535;
+          --color-primaryHover: #f0b90b;
+          --color-error: #e33b54;
+          --color-errorBg: #fef1f2;
+          --color-success: #0ecb81;
+          --color-successBg: #e6fff1;
+          --color-disable: #eaecef;
+          --color-iconNormal: #929aa5;
+          --color-textWhite: #ffffff;
+          --color-textGray: #eaecef;
+          --color-textBlack: #0b0e11;
+          --color-textPrimary: #1e2329;
+          --color-textSecondary: #474d57;
+          --color-textThird: #707a8a;
+          --color-textDisabled: #b7bdc6;
+          --color-textBrand: #c99400;
+          --color-textToast: #8d5f02;
+          --color-bg1: #ffffff;
+          --color-bg2: #fafafa;
+          --color-bg3: #f5f5f5;
+          --color-bg4: #5e6673;
+          --color-bg6: #ffffff;
+          --color-bg7: #fafafa;
+          --color-popupBg: #ffffff;
+          --color-badgeBg: #fef6d8;
+          --color-gradientBrand: linear-gradient(
+            180deg,
+            #f8d12f 0%,
+            #f0b90b 100%
+          );
+          --color-gradientPrimary: linear-gradient(
+            295.27deg,
+            #ffffff 0%,
+            #e6e8ea 84.52%
+          );
+        "
+      >
+        <div class="css-tq0shg">
+
+        </div>
+      </div>
+    </div>
+
+    <div id="__APP_FOOTER">
+      <div
+        class="theme-root light"
+        style="
+          --color-sell: #f6465d;
+          --color-textSell: #e33b54;
+          --color-sellHover: #ff707e;
+          --color-depthSellBg: #fef1f2;
+          --color-buy: #0ecb81;
+          --color-textBuy: #03a66d;
+          --color-buyHover: #32d993;
+          --color-depthBuyBg: #e6fff1;
+          --color-line: #eaecef;
+          --color-outlineHover: #ffef87;
+          --color-primary: #fcd535;
+          --color-primaryHover: #f0b90b;
+          --color-error: #e33b54;
+          --color-errorBg: #fef1f2;
+          --color-success: #0ecb81;
+          --color-successBg: #e6fff1;
+          --color-disable: #eaecef;
+          --color-iconNormal: #929aa5;
+          --color-textWhite: #ffffff;
+          --color-textGray: #eaecef;
+          --color-textBlack: #0b0e11;
+          --color-textPrimary: #1e2329;
+          --color-textSecondary: #474d57;
+          --color-textThird: #707a8a;
+          --color-textDisabled: #b7bdc6;
+          --color-textBrand: #c99400;
+          --color-textToast: #8d5f02;
+          --color-bg1: #ffffff;
+          --color-bg2: #fafafa;
+          --color-bg3: #f5f5f5;
+          --color-bg4: #5e6673;
+          --color-bg6: #ffffff;
+          --color-bg7: #fafafa;
+          --color-popupBg: #ffffff;
+          --color-badgeBg: #fef6d8;
+          --color-gradientBrand: linear-gradient(
+            180deg,
+            #f8d12f 0%,
+            #f0b90b 100%
+          );
+          --color-gradientPrimary: linear-gradient(
+            295.27deg,
+            #ffffff 0%,
+            #e6e8ea 84.52%
+          );
+        "
+      >
+      <div class="flex">
+        <div class=" sidebarMain flex w-1/6 ">
+          <ul class="w-full sidebar">
+            <li class="flex m-auto px-4 py-3 rounded-2xl w-full">
+              <svg
+                class="my-auto mx-2"
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 576 512"
+              >
+                <path
+                  d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"
+                /></svg
+              > <a href="./dashboard.html">Dashboard</a>
+            </li>
+
+            <li class="accordion-item px-4 py-3">
+              <input type="checkbox" id="item1" class="hidden">
+              
+              <label for="item1" class="accordion-label cursor-pointer flex justify-between items-center  ">
+                <div class="flex">
+                  <svg
+                  class="my-auto mx-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="1em"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V192c0-35.3-28.7-64-64-64H80c-8.8 0-16-7.2-16-16s7.2-16 16-16H448c17.7 0 32-14.3 32-32s-14.3-32-32-32H64zM416 272a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"
+                  /></svg
+                >
+                  <span>Assets</span>
+                </div>
+                
+                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 9l6 6 6-6"></path>
+                </svg>
+              </label>
+              <div class="accordion-content overflow-hidden transition-all max-h-0">
+                <ul>
+                  <li class="my-3 mx-3">
+                    <a href="./overview.html">Overview</a>
+                    
+                  </li>
+                  <li class="my-3 mx-3">
+                    <a href="./spot.html">Spot</a> 
+                  </li>
+                  <li class="my-3 mx-3">
+                    <a href="./margin.html"> Margin</a>
+                  </li>
+                  <li class="my-3 mx-3">
+                    <a href="./funding.htm">Funding</a>
+                  </li>
+                  <li class="my-3 mx-3">
+                    <a href="./spot.html">Futures</a>
+                  </li>
+                  <li class="my-3 mx-3">
+                    Options
+                  </li>
+                  <li class="my-3 mx-3">
+                    Trading Bots
+                  </li>
+                  <li class="my-3 mx-3">
+                    Earn
+                  </li>
+                  <li class="my-3 mx-3"s>
+                    Third Party Staking
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="flex m-auto px-4 py-3 rounded-lg w-full">
+              <svg
+                class="my-auto mx-2"
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 384 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128z"
+                /></svg
+              >Orders
+            </li>
+            <li class="flex m-auto px-4 py-3 rounded-lg w-full">
+              <svg
+                class="my-auto mx-2"
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 512 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M190.5 68.8L225.3 128H224 152c-22.1 0-40-17.9-40-40s17.9-40 40-40h2.2c14.9 0 28.8 7.9 36.3 20.8zM64 88c0 14.4 3.5 28 9.6 40H32c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H480c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32H438.4c6.1-12 9.6-25.6 9.6-40c0-48.6-39.4-88-88-88h-2.2c-31.9 0-61.5 16.9-77.7 44.4L256 85.5l-24.1-41C215.7 16.9 186.1 0 154.2 0H152C103.4 0 64 39.4 64 88zm336 0c0 22.1-17.9 40-40 40H288h-1.3l34.8-59.2C329.1 55.9 342.9 48 357.8 48H360c22.1 0 40 17.9 40 40zM32 288V464c0 26.5 21.5 48 48 48H224V288H32zM288 512H432c26.5 0 48-21.5 48-48V288H288V512z"
+                /></svg
+              >Rewards Hub
+            </li>
+            <li class="flex m-auto px-4 py-3 rounded-lg w-full">
+              <svg
+                class="my-auto mx-2"
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 640 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM504 312V248H440c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V136c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H552v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"
+                /></svg
+              >Refrerral
+            </li>
+            <li class="flex m-auto px-4 py-3 rounded-lg w-full">
+              <svg
+                class="my-auto mx-2"
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 448 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"
+                /></svg
+              >Account
+            </li>
+            <li class="flex m-auto px-4 py-3 rounded-lg w-full">
+              <svg
+                class="my-auto mx-2"
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 640 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c10 0 18.8-4.9 24.2-12.5l-99.2-99.2c-14.9-14.9-23.3-35.1-23.3-56.1v-33c-15.9-4.7-32.8-7.2-50.3-7.2H178.3zM384 224c-17.7 0-32 14.3-32 32v82.7c0 17 6.7 33.3 18.7 45.3L478.1 491.3c18.7 18.7 49.1 18.7 67.9 0l73.4-73.4c18.7-18.7 18.7-49.1 0-67.9L512 242.7c-12-12-28.3-18.7-45.3-18.7H384zm24 80a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
+                /></svg
+              >Sub Accounts
+            </li>
+
+            
+
+            <li class="flex m-auto px-4 py-3 rounded-lg w-full">
+              <svg
+                class="my-auto mx-2"
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 512 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M495.9 166.6c3.2 8.7 .5 18.4-6.4 24.6l-43.3 39.4c1.1 8.3 1.7 16.8 1.7 25.4s-.6 17.1-1.7 25.4l43.3 39.4c6.9 6.2 9.6 15.9 6.4 24.6c-4.4 11.9-9.7 23.3-15.8 34.3l-4.7 8.1c-6.6 11-14 21.4-22.1 31.2c-5.9 7.2-15.7 9.6-24.5 6.8l-55.7-17.7c-13.4 10.3-28.2 18.9-44 25.4l-12.5 57.1c-2 9.1-9 16.3-18.2 17.8c-13.8 2.3-28 3.5-42.5 3.5s-28.7-1.2-42.5-3.5c-9.2-1.5-16.2-8.7-18.2-17.8l-12.5-57.1c-15.8-6.5-30.6-15.1-44-25.4L83.1 425.9c-8.8 2.8-18.6 .3-24.5-6.8c-8.1-9.8-15.5-20.2-22.1-31.2l-4.7-8.1c-6.1-11-11.4-22.4-15.8-34.3c-3.2-8.7-.5-18.4 6.4-24.6l43.3-39.4C64.6 273.1 64 264.6 64 256s.6-17.1 1.7-25.4L22.4 191.2c-6.9-6.2-9.6-15.9-6.4-24.6c4.4-11.9 9.7-23.3 15.8-34.3l4.7-8.1c6.6-11 14-21.4 22.1-31.2c5.9-7.2 15.7-9.6 24.5-6.8l55.7 17.7c13.4-10.3 28.2-18.9 44-25.4l12.5-57.1c2-9.1 9-16.3 18.2-17.8C227.3 1.2 241.5 0 256 0s28.7 1.2 42.5 3.5c9.2 1.5 16.2 8.7 18.2 17.8l12.5 57.1c15.8 6.5 30.6 15.1 44 25.4l55.7-17.7c8.8-2.8 18.6-.3 24.5 6.8c8.1 9.8 15.5 20.2 22.1 31.2l4.7 8.1c6.1 11 11.4 22.4 15.8 34.3zM256 336a80 80 0 1 0 0-160 80 80 0 1 0 0 160z"
+                /></svg
+              >Settings
+            </li>
+           
+
+
+          </ul>
+        </div>
+        <div class="w-5/6">
+          <div class="flex  h-[100px] heading my-auto justify-items-start mx-5">
+            <div class="flex my-auto gap-2 mr-14 ml-2 max-w-[400px]">
+              <div class="bg-[#e6e8ea] overflow-hidden rounded-full w-14 h-14">
+                <svg
+                  class="w-[58px] h-[70px]"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="css-1iztezc"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M7 13a4 4 0 00-4 4v4h18v-4a4 4 0 00-4-4h-2l-3 3-3-3H7z"
+                    fill="#76808F"
+                  ></path>
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M16.5 6.5a4.5 4.5 0 10-9 0 4.5 4.5 0 009 0z"
+                    fill="url(#user-g_svg__paint0_linear)"
+                  ></path>
+                  <defs>bi
+                    <linearGradient
+                      id="user-g_svg__paint0_linear"
+                      x1="12"
+                      y1="11"
+                      x2="12"
+                      y2="2"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#F0B90B"></stop>
+                      <stop offset="1" stop-color="#F8D33A"></stop>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <div class="m-auto">
+                <h3 class="mx-1 text-[#20252b] font-bold">USERNAME-123456</h3>
+              </div>
+            </div>
+            <div class="flex gap-16">
+              <div class="my-auto text-[13px] leading-4 ">
+                <p class="text-[#929aa5] font-bold flex">
+                  User ID
+                  <svg
+                    class="fill-[#929aa5] m-auto ml-2 h-3"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="1em"
+                    viewBox="0 0 448 512"
+                  >
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M208 0H332.1c12.7 0 24.9 5.1 33.9 14.1l67.9 67.9c9 9 14.1 21.2 14.1 33.9V336c0 26.5-21.5 48-48 48H208c-26.5 0-48-21.5-48-48V48c0-26.5 21.5-48 48-48zM48 128h80v64H64V448H256V416h64v48c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V176c0-26.5 21.5-48 48-48z"
+                    />
+                  </svg>
+                </p>
+                <p class="font-bold">12345678</p>
+              </div>
+              <div class="my-auto text-[13px] leading-4">
+                <p class="text-[#929aa5] font-bold flex">
+                  VIP Level
+                  <svg
+                    class="fill-[#929aa5] m-auto ml-2 h-3"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="1em"
+                    viewBox="0 0 320 512"
+                  >
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                    />
+                  </svg>
+                </p>
+                <p class="font-bold">Regular User</p>
+              </div>
+              <div class="my-auto text-[13px] leading-4">
+                <p class="text-[#929aa5] font-bold">User Type</p>
+                <p class="font-bold">Personal</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="basis-4/6 m-5">
+              <div>
+                <div class="flex">
+                  <div class="font-bold">Estimated Balance</div>
+                  <div class="relative l-[20%]">
+  
+                      <div class="flex gap-2 relative left-[60%] ">
+                          <div class="px-4 py-1 border text-sm font-bold rounded-md bg-[#fcd535]">
+                              Deposit
+                          </div>
+                          <div class="px-4 py-1 border text-sm font-bold rounded-md bg-[#e7eaee]">
+                              Withdraw
+                          </div>
+                          <div class="px-4  py-1 border text-sm font-bold rounded-md bg-[#e7eaee]">
+                              Buy Crypto
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="my-5"><h1 class="font-bold text-xl ">1.22323 BTC <span> = $xxxx.xx</span></h2></div>
+                  <div>
+                    <div class="md:w-[300px] lg:w-[500px] ">
+                      <canvas id="myChart"></canvas>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h2 class="text-xl font-bold my-5">Markets</h2>
+              
+  
+  <ul class="flex flex-wrap w-full text-lg font-medium text-center text-gray-500 dark:text-gray-400">
+      <li class="me-2">
+          <a href="#" class="inline-block px-4 py-3 text-[#d1a526] bg-[#fef6d8] rounded-lg active" aria-current="page">Holding</a>
+      </li>
+      <li class="me-2">
+          <a href="#"  class="inline-block px-4 py-3 rounded-lg  hover:bg-gray-100 dark:hover:bg-[#eef0f2] ">Hot</a>
+      </li>
+      <li class="me-2">
+          <a href="#" class="inline-block px-4 py-3 rounded-lg  hover:bg-gray-100 dark:hover:bg-[#eef0f2] ">New Listing</a>
+      </li>
+      <li class="me-2">
+          <a href="#" class="inline-block px-4 py-3 rounded-lg  hover:bg-gray-100 dark:hover:bg-[#eef0f2] ">Favorite</a>
+      </li>
+      <li>
+          <a class="inline-block px-4 py-3 rounded-lg  hover:bg-gray-100 dark:hover:bg-[#eef0f2] ">Top Gainers</a>
+      </li>
+      <li>
+          <a class="inline-block px-4 py-3 rounded-lg  hover:bg-gray-100 dark:hover:bg-[#eef0f2] ">Top Losers</a>
+      </li>
+  </ul>
+  
+  
+  <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+      <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+          <thead class="text-xs text-gray-700 uppercase   dark:text-gray-400">
+              <tr>
+                  <th scope="col" class="flex px-6 py-3">
+                      Name
+                      <a href="#"><svg class="w-3 h-3 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z"/>
+                        </svg></a>
+                  </th>
+                  <th scope="col" class="px-6 py-3">
+                      <div class="flex items-center">
+                          Amount
+                          <a href="#"><svg class="w-3 h-3 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z"/>
+    </svg></a>
+                      </div>
+                  </th>
+                  <th scope="col" class="px-6 py-3">
+                      <div class="flex items-center">
+                          Price
+                          <a href="#"><svg class="w-3 h-3 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z"/>
+    </svg></a>
+                      </div>
+                  </th>
+                  <th scope="col" class="px-6 py-3">
+                      <div class="flex items-center">
+                          24H Change
+                          <a href="#"><svg class="w-3 h-3 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z"/>
+    </svg></a>
+                      </div>
+                  </th>
+                  <th scope="col" class="px-6 py-3">
+                      <span class="sr-only">Edit</span>
+                  </th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr class="bg-white   ">
+                  <th scope="row" class="px-6 py-4 font-medium  whitespace-nowrap dark:text-black">
+                      <div class="flex">
+                          <div class="w-10"><img src="../binance/btc.png" alt=""></img></div>
+                          <div class="mx-5">
+                              <p class="font-bold">BTC</p>
+                              <p class="font-bold text-[#8b93a0]">Bitcoin</p>
+                          </div>
+                      </div>
+                  </th>
+                  <td class="px-6 py-4 font-bold dark:text-black" >
+                      1.22323
+                  </td>
+                  <td class="px-6 py-4 font-bold dark:text-black">
+                      $2999
+                  </td>
+                  <td class="px-6 py-4 font-bold dark:text-[#E33B54]">
+                      -1.4%
+                  </td>
+                  <td class="px-6 py-4 text-right">
+                      <a href="#" class="font-medium text-blue-600 dark:text-[#d5ad3d] hover:underline">Trade</a>
+                  </td>
+              </tr>
+              <tr class="bg-white ">
+                  <th scope="row" class="px-6 py-4 font-medium  whitespace-nowrap dark:text-black">
+                      <div class="flex">
+                          <div class="w-10"><img src="../binance/bnb.png" alt=""></img></div>
+                          <div class="mx-5">
+                              <p class="font-bold">BNB</p>
+                              <p class="font-bold text-[#8b93a0]">BNB</p>
+                          </div>
+                      </div>
+                  </th>
+                  <td class="px-6 py-4 font-bold dark:text-black" >
+                      1.22323
+                  </td>
+                  <td class="px-6 py-4 font-bold dark:text-black">
+                      $2999
+                  </td>
+                  <td class="px-6 py-4 font-bold dark:text-[#E33B54]">
+                      -1.4%
+                  </td>
+                  <td class="px-6 py-4 text-right">
+                      <a href="#" class="font-medium text-blue-600 dark:text-[#d5ad3d] hover:underline">Trade</a>
+                  </td>
+              </tr>
+              <tr class="bg-white  ">
+                  <th scope="row" class="px-6 py-4 font-medium  whitespace-nowrap dark:text-black">
+                      <div class="flex">
+                          <div class="w-10"><img src="../binance/ethr.png" alt=""></img></div>
+                          <div class="mx-5">
+                              <p class="font-bold">ETH</p>
+                              <p class="font-bold text-[#8b93a0]">Ether</p>
+                          </div>
+                      </div>
+                  </th>
+                  <td class="px-6 py-4 font-bold dark:text-black" >
+                      1.22323
+                  </td>
+                  <td class="px-6 py-4 font-bold dark:text-black">
+                      $2999
+                  </td>
+                  <td class="px-6 py-4 font-bold dark:text-[#E33B54]">
+                      -1.4%
+                  </td>
+                  <td class="px-6 py-4 text-right">
+                      <a href="#" class="font-medium text-blue-600 dark:text-[#d5ad3d] hover:underline">Trade</a>
+                  </td>
+              </tr>
+              <tr class="bg-white  ">
+                  <th scope="row" class="px-6 py-4 font-medium  whitespace-nowrap dark:text-black">
+                      <div class="flex">
+                          <div class="w-10"><img src="../binance/Tether.png" alt=""></img></div>
+                          <div class="mx-5">
+                              <p class="font-bold">USDT</p>
+                              <p class="font-bold text-[#8b93a0]">TetherUS</p>
+                          </div>
+                      </div>
+                  </th>
+                  <td class="px-6 py-4 font-bold dark:text-black" >
+                      1.22323
+                  </td>
+                  <td class="px-6 py-4 font-bold dark:text-black">
+                      $2999
+                  </td>
+                  <td class="px-6 py-4 font-bold dark:text-[#E33B54]">
+                      -1.4%
+                  </td>
+                  <td class="px-6 py-4 text-right">
+                      <a href="#" class="font-medium text-blue-600 dark:text-[#d5ad3d] hover:underline">Trade</a>
+                  </td>
+              </tr>
+       
+          </tbody>
+      </table>
+  </div>
+  
+              </div>
+            </div>
+  
+            <div class="basis-1/4">
+              <div>
+                <h1 class="my-2 font-bold text-lg">Recommended For You</h1>
+                <div class="my-3 mr-4">
+                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                      
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <div class="h-[140px] flex my-auto bg-[#e6e9ee] rounded-lg">
+                              <div class="h-12 w-14 my-auto mx-4"><img src="./convert.svg"></div>
+                              <div class="my-auto">
+                                  <h2 class="font-bold text-md">Convert</h2>
+                                  <p class="text-[#888f9d] text-md font-bold">Easiest way to trade crypto at 0 fees </p>
+                              </div>
+                          </div>
+                      </div>
+                        <div class="carousel-item">
+                          <div class="h-[140px] flex my-auto bg-[#e6e9ee] rounded-lg">
+                              <div class="h-12 w-14 my-auto mx-4"><img src="./earn.svg"></div>
+                              <div class="my-auto">
+                                  <h2 class="font-bold text-md">Simple Earn <p>BTC APR up to x%</p></h2>
+                                  <p class="text-[#888f9d] font-bold">One-step investment solution, enjoy high returns.</p>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="h-[140px] flex my-auto bg-[#e6e9ee] rounded-lg">
+                              <div class="h-12 w-14 my-auto mx-4"><img src="./margin.svg"></div>
+                              <div class="my-auto">
+                                  <h2 class="font-bold text-md">Margin <p>BTC/USDT</p></h2>
+                                  <p class="text-[#888f9d] font-bold">Trade with Advance tools </p>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="h-[140px] flex my-auto bg-[#e6e9ee] rounded-lg">
+                              <div class="h-12 w-14 my-auto mx-4"><img src="./spot.svg"></div>
+                              <div class="my-auto">
+                                  <h2 class="font-bold text-md">Spot Trading <p>BTC/USDT</p></h2>
+                                  <p class="text-[#888f9d] font-bold">Trade with Advance tools </p>
+                              </div>
+                          </div>
+                        </div>
+                        
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                          </ol>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                </div>
+              </div>
+              <div class="my-5 mr-6 text-sm">
+                  <h1 class="font-bold text-xl my-4">More Service</h1>
+                  <div class="flex border p-3 my-3 rounded-lg">
+                      <div class="h-10 w-8 my-auto "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="css-1iztezc"><path d="M7 14.002L3.248 10.25l9.75 4.25 9.75-4.25L19 13.998V17.5l-6 6-6-6v-3.498z" fill="#76808F"></path><path d="M13.293 12.207l-6-6L3.25 10.25 13 20l9.75-9.75L13 .5 8.707 4.793l6 6-1.414 1.414z" fill="url(#academy-g_svg__paint0_linear)"></path><path d="M2.75 14L.5 16.25l2.25 2.25L5 16.25 2.75 14z" fill="#76808F"></path><defs><linearGradient id="academy-g_svg__paint0_linear" x1="13" y1="20" x2="13" y2="0.5" gradientUnits="userSpaceOnUse"><stop stop-color="#F0B90B"></stop><stop offset="1" stop-color="#F8D33A"></stop></linearGradient></defs></svg></div>
+                      <div class="mx-2 ">
+                          <h2 class="font-bold ">Learn and Earn</h2>
+                          <p class="text-[#888f9d] font-bold">Earn FREE crypto while you learn with Binance</p>
+                      </div>
+                  </div>
+                  <div class="flex border p-3 my-3 rounded-lg">
+                      <div class="h-10 w-8 my-auto"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="css-1iztezc"><path d="M17 13v3h2v-3h3v-2h-3V8h-2v3h-3v2h3zM3 18a4 4 0 014-4h4a4 4 0 014 4v3H3v-3z" fill="#76808F"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 7.5a4.5 4.5 0 10-9 0 4.5 4.5 0 009 0z" fill="url(#referral-g_svg__paint0_linear)"></path><defs><linearGradient id="referral-g_svg__paint0_linear" x1="9" y1="12" x2="9" y2="3" gradientUnits="userSpaceOnUse"><stop stop-color="#F0B90B"></stop><stop offset="1" stop-color="#F8D33A"></stop></linearGradient></defs></svg></div>
+                      <div class="mx-2">
+                          <h2 class="font-bold ">Referral</h2>
+                          <p class="text-[#888f9d] font-bold">Earn up to 40% commission</p>
+                      </div>
+                  </div>
+                  <div class="flex border p-3 my-3 rounded-lg">
+                      <div class="h-10 w-8 my-auto"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="css-1iztezc"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 2h16v21l-4-4-4 4-4-4-4 4V2z" fill="url(#orders-g_svg__paint0_linear)"></path><path d="M14 6H6v2h8V6zM18 6h-2v2h2V6zM6 10h8v2H6v-2zM18 10h-2v2h2v-2zM6 14h8v2H6v-2zM18 14h-2v2h2v-2z" fill="#76808F"></path><defs><linearGradient id="orders-g_svg__paint0_linear" x1="12" y1="23" x2="12" y2="2" gradientUnits="userSpaceOnUse"><stop stop-color="#F0B90B"></stop><stop offset="1" stop-color="#F8D33A"></stop></linearGradient></defs></svg></div>
+                      <div class="mx-2">
+                          <h2 class="font-bold ">Rewards Hub</h2>
+                          <p class="text-[#888f9d] font-bold">Earn rewards by joining exciting activities!</p>
+                      </div>
+                  </div>
+                  <div class="flex border p-3 my-3 rounded-lg">
+                      <div class="h-10 w-8 my-auto"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="css-1iztezc"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 2h16v21l-4-4-4 4-4-4-4 4V2z" fill="url(#orders-g_svg__paint0_linear)"></path><path d="M14 6H6v2h8V6zM18 6h-2v2h2V6zM6 10h8v2H6v-2zM18 10h-2v2h2v-2zM6 14h8v2H6v-2zM18 14h-2v2h2v-2z" fill="#76808F"></path><defs><linearGradient id="orders-g_svg__paint0_linear" x1="12" y1="23" x2="12" y2="2" gradientUnits="userSpaceOnUse"><stop stop-color="#F0B90B"></stop><stop offset="1" stop-color="#F8D33A"></stop></linearGradient></defs></svg></div>
+                      <div class="mx-2">
+                          <h2 class="font-bold ">Learn and Earn</h2>
+                          <p class="text-[#888f9d] font-bold">Your Fee Level VIP Regular User Using BNB Deduction (25%) discount</p>
+                      </div>
+                  </div>
+                  <div class="flex border p-3 my-3 rounded-lg">
+                      <div class="h-10 w-8 m-auto"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="css-1iztezc"><path d="M21 4.414L4.414 21 3 19.586 19.586 3 21 4.414z" fill="#76808F"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 11a4.5 4.5 0 100-9 4.5 4.5 0 000 9zm0-6.5l-2 2 2 2 2-2-2-2z" fill="url(#fees-g_svg__paint0_linear)"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M17.5 22a4.5 4.5 0 100-9 4.5 4.5 0 000 9zm0-6.5l-2 2 2 2 2-2-2-2z" fill="url(#fees-g_svg__paint1_linear)"></path><defs><linearGradient id="fees-g_svg__paint0_linear" x1="6.5" y1="11" x2="6.5" y2="2" gradientUnits="userSpaceOnUse"><stop stop-color="#F0B90B"></stop><stop offset="1" stop-color="#F8D33A"></stop></linearGradient><linearGradient id="fees-g_svg__paint1_linear" x1="17.5" y1="22" x2="17.5" y2="13" gradientUnits="userSpaceOnUse"><stop stop-color="#F0B90B"></stop><stop offset="1" stop-color="#F8D33A"></stop></linearGradient></defs></svg></div>
+                      <div class="mx-2">
+                          <h2 class="font-bold ">Learn and Earn</h2>
+                          <p class="text-[#888f9d] font-bold">Earn FREE crypto while you learn with Binance</p>
+                      </div>
+                  </div>
+              </div>
+              <div>
+                  <h2 class="font-bold text-xl my-4">Announcements</h2>
+                  <div>
+                      <div class="flex border p-3 text-sm my-3 rounded-lg">
+                          <div class="h-10 w-8 m-auto"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24" fill="none" class="css-1iztezc"><path fill-rule="evenodd" clip-rule="evenodd" d="M9 4h11.5v12a4 4 0 01-4 4H8a3.5 3.5 0 01-3.5-3.5V10H9V4zm0 8.5H7v4a1 1 0 102 0v-4zM11.758 7h6v2h-6V7zm6 4h-6v2h6v-2z" fill="currentColor"></path></svg></div>
+                          <div class="mx-2">
+                              <h2 class="font-bold ">Learn and Earn</h2>
+                              <p class="text-[#888f9d] font-bold">Earn FREE crypto while you learn with Binance</p>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div>
+                      <div class="flex border p-3 text-sm my-3 rounded-lg">
+                          <div class="h-10 w-8 m-auto"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24" fill="none" class="css-1iztezc"><path fill-rule="evenodd" clip-rule="evenodd" d="M9 4h11.5v12a4 4 0 01-4 4H8a3.5 3.5 0 01-3.5-3.5V10H9V4zm0 8.5H7v4a1 1 0 102 0v-4zM11.758 7h6v2h-6V7zm6 4h-6v2h6v-2z" fill="currentColor"></path></svg></div>
+                          <div class="mx-2">
+                              <h2 class="font-bold ">Learn and Earn</h2>
+                              <p class="text-[#888f9d] font-bold">Earn FREE crypto while you learn with Binance</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+
+
+        <footer
+          class="hidden-in-bnc-app footer-wrapper light-color common-widget-css_wrap theme-root"
+        >
+          <div class="footer-content">
+            <div class="footer-community">
+              <h3 class="footer-navlist-title">Community</h3>
+
+              <div class="footer-icongroup">
+                <a href="https://discord.gg/jE4wt8g2H2"
+                  ><svg
+                    class="footer-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                  >
+                    <use xlink:href="#icon-h-discord"></use></svg></a
+                ><a href="https://www.binance.com/en-IN/community"
+                  ><svg
+                    class="footer-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                  >
+                    <use xlink:href="#icon-social-telegram-f"></use></svg></a
+                ><a href="https://www.tiktok.com/@binance?lang=en"
+                  ><svg
+                    class="footer-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                  >
+                    <use xlink:href="#icon-h-tiktok"></use></svg></a
+                ><a href="https://www.facebook.com/binance"
+                  ><svg
+                    class="footer-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                  >
+                    <use xlink:href="#icon-h-facebook"></use></svg></a
+                ><a href="https://twitter.com/binance"
+                  ><svg
+                    class="footer-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                  >
+                    <use xlink:href="#icon-social-x-f"></use></svg></a
+                ><a href="https://www.reddit.com/r/binance"
+                  ><svg
+                    class="footer-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                  >
+                    <use xlink:href="#icon-h-reddit"></use></svg></a
+                ><a href="https://weibo.com/binance?is_hot=1"
+                  ><svg
+                    class="footer-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                  >
+                    <use xlink:href="#icon-h-weibo"></use></svg></a
+                ><a href="https://www.instagram.com/Binance/"
+                  ><svg
+                    class="footer-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                  >
+                    <use xlink:href="#icon-h-instagram"></use></svg></a
+                ><a href="https://coinmarketcap.com/exchanges/binance/"
+                  ><svg
+                    class="footer-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                  >
+                    <use xlink:href="#icon-h-coinmarketcap"></use></svg></a
+                ><a href="https://www.youtube.com/binanceyoutube"
+                  ><svg
+                    class="footer-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                  >
+                    <use xlink:href="#icon-h-youtube"></use></svg></a
+                ><a href="https://www.binance.com/en-IN/community"
+                  ><svg
+                    class="footer-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                  >
+                    <use xlink:href="#icon-more-f"></use></svg
+                ></a>
+              </div>
+
+              <div class="lngAndCurrency-selectgroup mt-48">
+                <div class="block footer-community-lang">
+                  <div class="bn-tooltips-wrap">
+                    <div class="bn-tooltips-ele">
+                      <div class="footer-select-display">
+                        <div class="typography-Subtitle4 align-center">
+                          <svg
+                            class="bn-svg mr-8"
+                            size="24"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M15.23 20.403a9.011 9.011 0 005.684-7.153h-3.942c-.147 2.86-.793 5.388-1.741 7.153zm-.757-7.153c-.178 4.102-1.217 7.25-2.473 7.25-1.256 0-2.295-3.148-2.473-7.25h4.946zm0-2.5H9.527C9.705 6.648 10.744 3.5 12 3.5c1.256 0 2.295 3.148 2.473 7.25zm2.499 0h3.942a9.01 9.01 0 00-5.683-7.153c.948 1.765 1.594 4.293 1.741 7.153zm-9.936 0c.147-2.862.793-5.392 1.743-7.156a9.01 9.01 0 00-5.693 7.156h3.95zm0 2.5h-3.95a9.01 9.01 0 005.693 7.157c-.95-1.765-1.596-4.295-1.743-7.157z"
+                              fill="currentColor"
+                            ></path></svg
+                          >English (India)
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="bn-bubble bn-bubble__unset shadow bn-tooltips"
+                      style="
+                        transform: translate(0px, 0px);
+                        bottom: 100%;
+                        left: 0px;
+                      "
+                    >
+                      <div class="bn-bubble-content" style="margin-bottom: 4px">
+                        <div class="footer-select-options-group">
+                          <div
+                            class="bn-textField bn-textField__line data-size-small"
+                          >
+                            <input
+                              placeholder="Search"
+                              class="bn-textField-input"
+                              spellcheck="false"
+                              autocomplete=""
+                              value=""
+                            />
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="footer-community-currency block">
+                  <div class="bn-tooltips-wrap">
+                    <div class="bn-tooltips-ele">
+                      <div class="footer-select-display">
+                        <div class="typography-Subtitle4 align-center">
+                          <svg
+                            class="bn-svg mr-8"
+                            size="24"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M11.336 8.577c-.769.15-1.1.558-1.1 1.146 0 .573.331.874 1.1 1.086V8.577zM12.678 15.393c.71-.196 1.041-.663 1.041-1.236 0-.438-.18-.89-1.04-1.147v2.383z"
+                              fill="currentColor"
+                            ></path>
+
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M12 21a9 9 0 100-18 9 9 0 000 18zm.86-3.948V18.5h-1.72v-1.387c-1.523-.136-2.533-.755-3.287-1.584l1.357-1.237c.573.604 1.282 1.01 2.126 1.131V12.71c-2.262-.468-3.182-1.463-3.182-2.926 0-1.583 1.04-2.64 2.986-2.865V5.5h1.72v1.418c1.206.135 2.096.603 2.76 1.357l-1.373 1.237c-.362-.408-.845-.74-1.569-.905v2.503c2.112.483 3.122 1.342 3.122 2.88 0 1.479-.935 2.73-2.94 3.062z"
+                              fill="currentColor"
+                            ></path></svg
+                          >USD-$
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="bn-bubble bn-bubble__unset shadow bn-tooltips"
+                      style="
+                        transform: translate(0px, 0px);
+                        bottom: 100%;
+                        left: 0px;
+                      "
+                    >
+                      <div class="bn-bubble-content" style="margin-bottom: 4px">
+                        <div class="footer-select-options-group">
+                          <div
+                            class="bn-textField bn-textField__line data-size-small"
+                          >
+                            <input
+                              placeholder="Search"
+                              class="bn-textField-input"
+                              spellcheck="false"
+                              autocomplete=""
+                              value=""
+                            />
+                          </div>
+
+                        
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div></div>
+
+                
+
+                <div
+                  class="footer-theme-switch align-center typography-Subtitle4"
+                >
+                  <div class="bn-switch data-size-middle">
+                    <div class="bn-switch-dot">
+                      <svg
+                        class="bn-svg switch-icon"
+                        size="16"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M10.5 2h3v3h-3V2zM16 12a4 4 0 11-8 0 4 4 0 018 0zM5.99 3.869L3.867 5.99 5.99 8.112 8.111 5.99 5.989 3.87zM2 13.5v-3h3v3H2zm1.868 4.51l2.121 2.12 2.122-2.12-2.122-2.122-2.121 2.121zM13.5 19v3h-3v-3h3zm4.51-3.112l-2.121 2.122 2.121 2.121 2.121-2.121-2.121-2.122zM19 10.5h3v3h-3v-3zm-3.11-4.51l2.12 2.121 2.122-2.121-2.121-2.121-2.122 2.121z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="lngAndCurrency-selectgroup-m mt-48">
+                <div class="flex">
+                  <div
+                    class="lngAndCurrency-selectgroup-m-language align-center typography-Subtitle4"
+                  >
+                    <svg
+                      class="bn-svg mr-8"
+                      size="24"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M15.23 20.403a9.011 9.011 0 005.684-7.153h-3.942c-.147 2.86-.793 5.388-1.741 7.153zm-.757-7.153c-.178 4.102-1.217 7.25-2.473 7.25-1.256 0-2.295-3.148-2.473-7.25h4.946zm0-2.5H9.527C9.705 6.648 10.744 3.5 12 3.5c1.256 0 2.295 3.148 2.473 7.25zm2.499 0h3.942a9.01 9.01 0 00-5.683-7.153c.948 1.765 1.594 4.293 1.741 7.153zm-9.936 0c.147-2.862.793-5.392 1.743-7.156a9.01 9.01 0 00-5.693 7.156h3.95zm0 2.5h-3.95a9.01 9.01 0 005.693 7.157c-.95-1.765-1.596-4.295-1.743-7.157z"
+                        fill="currentColor"
+                      ></path></svg
+                    >English (India)
+                  </div>
+
+                  <div class="align-center typography-Subtitle4">
+                    <svg
+                      class="bn-svg mr-8"
+                      size="24"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.336 8.577c-.769.15-1.1.558-1.1 1.146 0 .573.331.874 1.1 1.086V8.577zM12.678 15.393c.71-.196 1.041-.663 1.041-1.236 0-.438-.18-.89-1.04-1.147v2.383z"
+                        fill="currentColor"
+                      ></path>
+
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12 21a9 9 0 100-18 9 9 0 000 18zm.86-3.948V18.5h-1.72v-1.387c-1.523-.136-2.533-.755-3.287-1.584l1.357-1.237c.573.604 1.282 1.01 2.126 1.131V12.71c-2.262-.468-3.182-1.463-3.182-2.926 0-1.583 1.04-2.64 2.986-2.865V5.5h1.72v1.418c1.206.135 2.096.603 2.76 1.357l-1.373 1.237c-.362-.408-.845-.74-1.569-.905v2.503c2.112.483 3.122 1.342 3.122 2.88 0 1.479-.935 2.73-2.94 3.062z"
+                        fill="currentColor"
+                      ></path></svg
+                    >USD
+                  </div>
+                </div>
+
+                <div
+                  class="footer-theme-switch align-center typography-Subtitle4"
+                >
+                  <div class="bn-switch data-size-middle">
+                    <div class="bn-switch-dot">
+                      <svg
+                        class="bn-svg switch-icon"
+                        size="16"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M10.5 2h3v3h-3V2zM16 12a4 4 0 11-8 0 4 4 0 018 0zM5.99 3.869L3.867 5.99 5.99 8.112 8.111 5.99 5.989 3.87zM2 13.5v-3h3v3H2zm1.868 4.51l2.121 2.12 2.122-2.12-2.122-2.122-2.121 2.121zM13.5 19v3h-3v-3h3zm4.51-3.112l-2.121 2.122 2.121 2.121 2.121-2.121-2.121-2.122zM19 10.5h3v3h-3v-3zm-3.11-4.51l2.12 2.121 2.122-2.121-2.121-2.121-2.122 2.121z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-navlist">
+              <div class="footer-navlist-group">
+                <div class="footer-navlist-sub">
+                  <h3 class="footer-navlist-title">
+                    About Us
+
+                    <div class="footer-navlist-expand-icon">
+                      <svg
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="bn-svg"
+                      >
+                        <path
+                          d="M13.5 3h-3v7.5H3v3h7.5V21h3v-7.5H21v-3h-7.5V3z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </h3>
+                  <ul class="footer-navlist-item-list">
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-About"
+                        href="https://www.binance.com/en-IN/about"
+                        class="typography-Body3 color-textprimary"
+                        >About</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-ContactUs"
+                        href="https://www.binance.com/en-IN/about#email"
+                        class="typography-Body3 color-textprimary"
+                        >Business Contacts</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-joinUs"
+                        href="https://www.binance.com/en-IN/careers"
+                        class="typography-Body3 color-textprimary"
+                        >Careers</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-Announcement"
+                        href="https://www.binance.com/en-IN/support/announcement"
+                        class="typography-Body3 color-textprimary"
+                        >Announcements</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-news"
+                        href="https://www.binance.com/en-IN/news"
+                        class="typography-Body3 color-textprimary"
+                        >News</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-Press"
+                        href="https://www.binance.com/en-IN/press"
+                        class="typography-Body3 color-textprimary"
+                        >Press</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_footer-legal"
+                        href="https://www.binance.com/en-IN/legal/home"
+                        class="typography-Body3 color-textprimary"
+                        >Legal</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-Terms"
+                        href="https://www.binance.com/en-IN/terms"
+                        class="typography-Body3 color-textprimary"
+                        >Terms</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-Privacy"
+                        href="https://www.binance.com/en-IN/privacy"
+                        class="typography-Body3 color-textprimary"
+                        >Privacy</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_footer-building-trust"
+                        href="https://www.binance.com/en-IN/land/building_trust"
+                        class="typography-Body3 color-textprimary"
+                        >Building Trust</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-binanceBlog"
+                        href="https://www.binance.com/en-IN/blog"
+                        class="typography-Body3 color-textprimary"
+                        >Blog</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-Community"
+                        href="https://www.binance.com/en-IN/community"
+                        class="typography-Body3 color-textprimary"
+                        >Community</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_footer_sitemap"
+                        href="https://www.binance.com/en-IN/country-region-selector"
+                        class="typography-Body3 color-textprimary"
+                        >Sitemap</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-risk-warning"
+                        href="https://www.binance.com/en-IN/risk-warning"
+                        class="typography-Body3 color-textprimary"
+                        >Risk Warning</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_Notices"
+                        href="https://www.binance.com/en-IN/support/list/notices"
+                        class="typography-Body3 color-textprimary"
+                        >Notices</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-Download"
+                        href="https://www.binance.com/en-IN/download"
+                        class="typography-Body3 color-textprimary"
+                        >Downloads</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-Desktop Application"
+                        href="https://www.binance.com/en-IN/desktop-download"
+                        class="typography-Body3 color-textprimary"
+                        >Desktop Application</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer-navlist-group">
+                <div class="footer-navlist-sub">
+                  <h3 class="footer-navlist-title">
+                    Products
+
+                    <div class="footer-navlist-expand-icon">
+                      <svg
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="bn-svg"
+                      >
+                        <path
+                          d="M13.5 3h-3v7.5H3v3h7.5V21h3v-7.5H21v-3h-7.5V3z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </h3>
+                  <ul class="footer-navlist-item-list">
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-Exchange"
+                        href="https://www.binance.com/en-IN/trade"
+                        class="typography-Body3 color-textprimary"
+                        >Exchange</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-creditCard"
+                        href="https://www.binance.com/en-IN/buy-sell-crypto"
+                        class="typography-Body3 color-textprimary"
+                        >Buy Crypto</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-levaragedtoken"
+                        href="https://www.binance.com/en-IN/leveraged-tokens/tokens/allTokens"
+                        class="typography-Body3 color-textprimary"
+                        >Leveraged Tokens</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-Binance Pay"
+                        href="https://pay.binance.com/en-IN"
+                        class="typography-Body3 color-textprimary"
+                        >Pay</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-Academy"
+                        href="https://academy.binance.com/en"
+                        class="typography-Body3 color-textprimary"
+                        >Academy</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-live"
+                        href="https://www.binance.com/en-IN/live"
+                        class="typography-Body3 color-textprimary"
+                        >Live</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-tax"
+                        href="https://www.binance.com/en-IN/tax"
+                        class="typography-Body3 color-textprimary"
+                        >Tax</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-GiftCard"
+                        href="https://www.binance.com/en-IN/gift-card"
+                        class="typography-Body3 color-textprimary"
+                        >Gift Card</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-Launchpad"
+                        href="https://launchpad.binance.com/en-IN"
+                        class="typography-Body3 color-textprimary"
+                        >Launchpad</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-auto-invest"
+                        href="https://www.binance.com/en-IN/auto-invest"
+                        class="typography-Body3 color-textprimary"
+                        >Auto-Invest</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-eth2"
+                        href="https://www.binance.com/en-IN/eth2"
+                        class="typography-Body3 color-textprimary"
+                        >ETH Staking</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-defi-staking-title"
+                        href="https://www.binance.com/en-IN/defi-staking"
+                        class="typography-Body3 color-textprimary"
+                        >Defi Staking</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-NFT"
+                        href="https://www.binance.com/en-IN/nft/home"
+                        class="typography-Body3 color-textprimary"
+                        >NFT</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-binanceCoin"
+                        href="https://www.binance.com/en-IN/bnb"
+                        class="typography-Body3 color-textprimary"
+                        >BNB</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_BABT"
+                        href="https://www.binance.com/en-IN/BABT?source=footer"
+                        class="typography-Body3 color-textprimary"
+                        >BABT</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-Research"
+                        href="https://www.binance.com/en-IN/research"
+                        class="typography-Body3 color-textprimary"
+                        >Research</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-Charity"
+                        href="https://www.binance.charity"
+                        class="typography-Body3 color-textprimary"
+                        >Charity</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer-navlist-group">
+                <div class="footer-navlist-sub">
+                  <h3 class="footer-navlist-title">
+                    Business
+
+                    <div class="footer-navlist-expand-icon">
+                      <svg
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="bn-svg"
+                      >
+                        <path
+                          d="M13.5 3h-3v7.5H3v3h7.5V21h3v-7.5H21v-3h-7.5V3z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </h3>
+                  <ul class="footer-navlist-item-list">
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-applyP2P"
+                        href="https://c2c.binance.com/en-IN/merchantApplication"
+                        class="typography-Body3 color-textprimary"
+                        >P2P Merchant Application</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-p2pro"
+                        href="https://p2p.binance.com/en-IN/p2pro"
+                        class="typography-Body3 color-textprimary"
+                        >P2Pro Merchant Application</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-ListingApplication"
+                        href="https://www.binance.com/en-IN/my/coin-apply"
+                        class="typography-Body3 color-textprimary"
+                        >Listing Application</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-institutional"
+                        href="https://www.binance.com/en-IN/vip-institutional-services"
+                        class="typography-Body3 color-textprimary"
+                        >Institutional &amp; VIP Services</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-Labs"
+                        href="https://labs.binance.com/"
+                        class="typography-Body3 color-textprimary"
+                        >Labs</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="footer-navlist-sub">
+                  <h3 class="footer-navlist-title">
+                    Learn
+
+                    <div class="footer-navlist-expand-icon">
+                      <svg
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="bn-svg"
+                      >
+                        <path
+                          d="M13.5 3h-3v7.5H3v3h7.5V21h3v-7.5H21v-3h-7.5V3z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </h3>
+                  <ul class="footer-navlist-item-list">
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-learn-earn-title"
+                        href="https://academy.binance.com/en/learn-and-earn"
+                        class="typography-Body3 color-textprimary"
+                        >Learn &amp; Earn</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-footer-pricepage"
+                        href="https://www.binance.com/en-IN/price"
+                        class="typography-Body3 color-textprimary"
+                        >Browse Crypto Prices</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_footer_bitcoin_price"
+                        href="https://www.binance.com/en-IN/price/bitcoin"
+                        class="typography-Body3 color-textprimary"
+                        >Bitcoin Price</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_footer_ethereum_price"
+                        href="https://www.binance.com/en-IN/price/ethereum"
+                        class="typography-Body3 color-textprimary"
+                        >Ethereum Price</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-buy-bitcoin"
+                        href="https://www.binance.com/en-IN/how-to-buy/bitcoin"
+                        class="typography-Body3 color-textprimary"
+                        >Buy Bitcoin</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-buybnb"
+                        href="https://www.binance.com/en-IN/how-to-buy/bnb"
+                        class="typography-Body3 color-textprimary"
+                        >Buy BNB</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-buyRipple"
+                        href="https://www.binance.com/en-IN/how-to-buy/xrp"
+                        class="typography-Body3 color-textprimary"
+                        >Buy Ripple</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-buydogecoin"
+                        href="https://www.binance.com/en-IN/how-to-buy/dogecoin"
+                        class="typography-Body3 color-textprimary"
+                        >Buy Dogecoin</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-buyEthereum"
+                        href="https://www.binance.com/en-IN/how-to-buy/ethereum"
+                        class="typography-Body3 color-textprimary"
+                        >Buy Ethereum</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-BuyTradable"
+                        href="https://www.binance.com/en-IN/altcoins/tradable"
+                        class="typography-Body3 color-textprimary"
+                        >Buy Tradable Altcoins</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer-navlist-group">
+                <div class="footer-navlist-sub">
+                  <h3 class="footer-navlist-title">
+                    Service
+
+                    <div class="footer-navlist-expand-icon">
+                      <svg
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="bn-svg"
+                      >
+                        <path
+                          d="M13.5 3h-3v7.5H3v3h7.5V21h3v-7.5H21v-3h-7.5V3z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </h3>
+                  <ul class="footer-navlist-item-list">
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-Affiliate"
+                        href="https://www.binance.com/en-IN/activity/affiliate"
+                        class="typography-Body3 color-textprimary"
+                        >Affiliate</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-referral"
+                        href="https://www.binance.com/en-IN/activity/referral?utm_source=Lite_web_footer"
+                        class="typography-Body3 color-textprimary"
+                        >Referral</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-otctrading"
+                        href="https://www.binance.com/en-IN/otc"
+                        class="typography-Body3 color-textprimary"
+                        >OTC Trading</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_landing-data-title"
+                        href="https://www.binance.com/en-IN/landing/data"
+                        class="typography-Body3 color-textprimary"
+                        >Historical Market Data</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-Proof-of-Reserves"
+                        href="https://www.binance.com/en-IN/proof-of-reserves"
+                        class="typography-Body3 color-textprimary"
+                        >Proof of Reserves</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="footer-navlist-sub">
+                  <h3 class="footer-navlist-title">
+                    Support
+
+                    <div class="footer-navlist-expand-icon">
+                      <svg
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="bn-svg"
+                      >
+                        <path
+                          d="M13.5 3h-3v7.5H3v3h7.5V21h3v-7.5H21v-3h-7.5V3z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </h3>
+                  <ul class="footer-navlist-item-list">
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-SubmitARequest"
+                        href="https://www.binance.com/en-IN/chat?sourceEntry=4"
+                        class="typography-Body3 color-textprimary"
+                        >24/7 Chat Support</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-SupportCenter"
+                        href="https://www.binance.com/en-IN/support"
+                        class="typography-Body3 color-textprimary"
+                        >Support Center</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_footer_support_request_feature"
+                        href="https://www.binance.com/en-IN/my/user-support/feedback/entry"
+                        class="typography-Body3 color-textprimary"
+                        >Request a Feature</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-Fees"
+                        href="https://www.binance.com/en-IN/fee/schedule"
+                        class="typography-Body3 color-textprimary"
+                        >Fees</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_header-tier2-api"
+                        href="https://www.binance.com/en-IN/binance-api"
+                        class="typography-Body3 color-textprimary"
+                        >APIs</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-official-verification"
+                        href="https://www.binance.com/en-IN/official-verification"
+                        class="typography-Body3 color-textprimary"
+                        >Binance Verify</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-tradeRules"
+                        href="https://www.binance.com/en-IN/trade-rule"
+                        class="typography-Body3 color-textprimary"
+                        >Trading Rules</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-airdrop"
+                        href="https://www.binance.com/en-IN/airdrop"
+                        class="typography-Body3 color-textprimary"
+                        >Binance Airdrop Portal</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-law"
+                        href="https://www.binance.com/en-IN/support/law-enforcement"
+                        class="typography-Body3 color-textprimary"
+                        >Law Enforcement Requests</a
+                      >
+                    </li>
+                    <li class="footer-navlist-item">
+                      <a
+                        id="footer_menu_item_ba-binance-legal"
+                        href="https://www.binance.com/en-IN/binance-legal"
+                        class="typography-Body3 color-textprimary"
+                        >Binance Legal (Court Orders)</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-copyright">
+            <div class="footer-copyright-line"></div>
+
+            <div
+              class="footer-copyright-text footer-copyright-enterprise text-center typography-Body3"
+            >
+              <span>Binance </span>
+
+              <span class="no-wrap">© 2023 </span>
+
+              <span
+                class="footer-copyright-cookieprefrence"
+                data-ot-trigger="true"
+                >Cookie Preferences
+              </span>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <div id="onetrust-consent-sdk">
+      <div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div>
+
+      <div
+        id="onetrust-pc-sdk"
+        class="otPcCenter ot-hide ot-fade-in otRelFont"
+        lang="en"
+        aria-label="Preference center"
+        role="region"
+      >
+
+        <iframe
+          class="ot-text-resize"
+          sandbox="allow-same-origin"
+          title="onetrust-text-resize"
+          style="position: absolute; top: -50000px; width: 100em"
+          aria-hidden="true"
+        ></iframe>
+      </div>
+    </div>
+    <script>
+      document.querySelectorAll('.accordion-label').forEach(function (label) {
+        label.addEventListener('click', function () {
+          const item = this.closest('.accordion-item');
+          const content = item.querySelector('.accordion-content');
+    
+          if (item.classList.contains('active')) {
+            content.style.maxHeight = '0';
+            item.classList.remove('active');
+          } else {
+            content.style.maxHeight = content.scrollHeight + 'px';
+            item.classList.add('active');
+          }
+        });
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+      const ctx = document.getElementById("myChart").getContext("2d");
+      var gradient = ctx.createLinearGradient(0, 400, 0, 0);
+      gradient.addColorStop(0, "white");
+      gradient.addColorStop(1, "#f0b80b");
+
+      new Chart(ctx, {
+        type: "line",
+        data: {
+          labels: ["11-20", "11-21", "11-22", "11-23", "11-24", "11-25"],
+          datasets: [
+            {
+              label: "# of Votes",
+              data: [12, 19, 3, 5, 2, 3],
+              borderWidth: 1,
+              fill: true,
+              borderColor: "#f0b80b",
+              backgroundColor: gradient,
+              borderWidth: 3,
+            },
+          ],
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true,
+              grid: {
+                display: false,
+              },
+            },
+            x: {
+              beginAtZero: true,
+              grid: {
+                display: false,
+              },
+            },
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

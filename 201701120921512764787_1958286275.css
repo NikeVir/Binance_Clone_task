@@ -1,0 +1,42 @@
+div.boxKB {
+   padding: 25px;
+   float: none;
+   clear: both;
+}
+
+div.boxKB p, div.boxKB td, div.boxKB li {
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 21px;
+}
+
+div.boxKB p.kbheader {
+   color: #cc6600;
+   font-weight: bold;
+   border-bottom-color: #dddddd;
+   border-bottom-style: solid;
+   border-bottom-width: thin;
+   padding-bottom: 10px;
+   margin-bottom: 20px;
+   font-size: 16px;
+   line-height: 20px;
+}
+
+@media screen and (max-width:1000px) {
+div.boxKB {
+   padding: 10px;
+   float: none;
+   clear: both;
+}
+
+   div.boxKB p, div.boxKB td, div.boxKB li {
+      font-family: Verdana, Arial;
+      font-size: 16px;
+      line-height: 19px;
+   }
+
+   div.boxKB p.kbheader {
+      font-size: 16px;
+      line-height: 21px;
+   }
+}
