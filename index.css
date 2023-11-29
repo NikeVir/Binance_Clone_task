@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500&display=swap');
+
+*{
+    font-family:  'IBM Plex Sans Condensed', sans-serif !important;
+}
 .sidebar{
     color:#929aa5;
     font-size: 1rem;
